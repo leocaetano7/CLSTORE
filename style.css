@@ -307,4 +307,9 @@ header{
     .home-text h3 {
       margin-top: 1rem;
     }
+      .product {
+    margin-top: 1rem;
+    order: 2; /* Altera a ordem de exibição para que o .product apareça entre os textos */
+  }
+}
 }

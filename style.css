@@ -275,3 +275,36 @@ header{
   padding: 5px 0;
 }
 
+/*-----media-----*/
+
+  @media (max-width: 768px) {
+    .main {
+      display: grid;
+      grid-template-columns: repeat(4, 2fr);
+      grid-gap: 2rem;
+      justify-items: center;
+      flex-wrap: wrap;
+      margin-top: 20%;
+      flex-direction: column;
+    }
+  
+    .row,
+    .row2,
+    .row3 {
+      flex: 0 0 calc(50% - 1rem);
+      height: 70px;
+      width: 70px;
+    }
+  
+    .home-text {
+      margin-bottom: 2rem;
+      margin-top: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-text h3 {
+      margin-top: 1rem;
+    }
+}

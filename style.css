@@ -342,7 +342,7 @@ header {
     transform: translateY(-50%);
   }
   
-  @media (max-width: 768px) {
+    @media (max-width: 768px) {
     .main {
       display: grid;
       grid-template-columns: repeat(4, 2fr);
@@ -359,7 +359,6 @@ header {
       flex: 0 0 calc(50% - 1rem);
       height: 70px;
       width: 70px;
-      margin-top: 25%;
     }
   
     .home-text {
@@ -376,4 +375,3 @@ header {
   
   }
 }
-

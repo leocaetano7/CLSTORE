@@ -359,6 +359,7 @@ header {
       flex: 0 0 calc(50% - 1rem);
       height: 70px;
       width: 70px;
+      margin-top: 25%;
     }
   
     .home-text {
